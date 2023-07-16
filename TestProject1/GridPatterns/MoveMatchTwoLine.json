@@ -1,0 +1,51 @@
+[
+  {
+    "MoveAction": {
+      "StartPosition": {
+        "X": 0,
+        "Y": 3
+      },
+      "EndPosition": {
+        "X": 0,
+        "Y": 2
+      }
+    },
+    "Grid": [
+      [2, 2, 1, 2],
+      [1, 1, 2, 1],
+      [0, 0, 2, 0],
+      [1, 1, 2, 1]
+    ],
+    "PositiveMatchResults": [
+      {
+        "IsVertical" : false,
+        "MoveAction": {
+          "StartPosition": {
+            "X": 0,
+            "Y": 0
+          },
+          "EndPosition": {
+            "X": 0,
+            "Y": 2
+          }
+        },
+        "Result" : 1
+      },
+      {
+        "IsVertical" : true,
+        "MoveAction": {
+          "StartPosition": {
+            "X": 0,
+            "Y": 2
+          },
+          "EndPosition": {
+            "X": 2,
+            "Y": 2
+          }
+        },
+        "Result" : 2
+      }
+    ]
+  }
+
+]

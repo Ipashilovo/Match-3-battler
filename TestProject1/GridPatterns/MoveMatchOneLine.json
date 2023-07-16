@@ -1,0 +1,232 @@
+[
+  {
+    "MoveAction": {
+      "StartPosition": {
+        "X": 0,
+        "Y": 2
+      },
+      "EndPosition": {
+        "X": 0,
+        "Y": 3
+      }
+    },
+    "Grid": [
+      [1,1,0,1,4]
+    ],
+    "PositiveMatchResults": [
+      {
+        "MoveAction": {
+          "StartPosition": {
+            "X": 0,
+            "Y": 0
+          },
+          "EndPosition": {
+            "X": 0,
+            "Y": 2
+          }
+        },
+        "Result" : 1
+      }
+    ]
+  },
+  {
+    "MoveAction": {
+      "StartPosition": {
+        "X": 0,
+        "Y": 3
+      },
+      "EndPosition": {
+        "X": 0,
+        "Y": 4
+      }
+    },
+    "Grid": [
+      [1,2,2,1,2]
+    ],
+    "PositiveMatchResults": [
+      {
+        "MoveAction": {
+          "StartPosition": {
+            "X": 0,
+            "Y": 1
+          },
+          "EndPosition": {
+            "X": 0,
+            "Y": 3
+          }
+        },
+        "Result" : 1
+      }
+    ]
+
+  },
+  {
+    "MoveAction": {
+      "StartPosition": {
+        "X": 0,
+        "Y": 3
+      },
+      "EndPosition": {
+        "X": 0,
+        "Y": 2
+      }
+    },
+    "Grid": [
+      [3,3,2,3,2,2]
+    ],
+    "PositiveMatchResults": [
+      {
+        "MoveAction": {
+          "StartPosition": {
+            "X": 0,
+            "Y": 0
+          },
+          "EndPosition": {
+            "X": 0,
+            "Y": 5
+          }
+        },
+        "Result" : 1
+      }
+    ]
+
+  },
+  {
+    "MoveAction": {
+      "StartPosition": {
+        "X": 1,
+        "Y": 4
+      },
+      "EndPosition": {
+        "X": 1,
+        "Y": 3
+      }
+    },
+    "Grid": [
+      [0,1,2,3,1],
+      [0,1,1,3,1],
+      [0,1,2,0,3]
+    ],
+    "PositiveMatchResults": [
+      {
+        "MoveAction": {
+          "StartPosition": {
+            "X": 1,
+            "Y": 1
+          },
+          "EndPosition": {
+            "X": 0,
+            "Y": 3
+          }
+        },
+        "Result" : 2
+      }
+    ]
+  },
+  {
+    "MoveAction": {
+      "StartPosition": {
+        "X": 2,
+        "Y": 0
+      },
+      "EndPosition": {
+        "X": 3,
+        "Y": 0
+      }
+    },
+    "Grid": [
+      [1],
+      [1],
+      [0],
+      [1]
+    ],
+    "PositiveMatchResults": [
+      {
+        "IsVertical" : true,
+        "MoveAction": {
+          "StartPosition": {
+            "X": 0,
+            "Y": 0
+          },
+          "EndPosition": {
+            "X": 2,
+            "Y": 0
+          }
+        },
+        "Result" : 0
+      }
+    ]
+  },
+  {
+    "MoveAction": {
+      "StartPosition": {
+        "X": 2,
+        "Y": 0
+      },
+      "EndPosition": {
+        "X": 3,
+        "Y": 0
+      }
+    },
+    "Grid": [
+      [1],
+      [1],
+      [0],
+      [1],
+      [0],
+      [0]
+    ],
+    "PositiveMatchResults": [
+      {
+        "IsVertical" : true,
+        "MoveAction": {
+          "StartPosition": {
+            "X": 0,
+            "Y": 0
+          },
+          "EndPosition": {
+            "X": 5,
+            "Y": 0
+          }
+        },
+        "Result" : 0
+      }
+    ]
+  },
+  {
+    "MoveAction": {
+      "StartPosition": {
+        "X": 2,
+        "Y": 0
+      },
+      "EndPosition": {
+        "X": 2,
+        "Y": 1
+      }
+    },
+    "Grid": [
+      [0,3],
+      [1,3],
+      [3,0],
+      [1,3],
+      [0,3],
+      [1,0]
+    ],
+    "PositiveMatchResults": [
+      {
+        "IsVertical" : true,
+        "MoveAction": {
+          "StartPosition": {
+            "X": 0,
+            "Y": 1
+          },
+          "EndPosition": {
+            "X": 4,
+            "Y": 1
+          }
+        },
+        "Result" : 1
+      }
+    ]
+  }
+]
